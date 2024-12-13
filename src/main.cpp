@@ -8,7 +8,7 @@
 
 void sensor_proximity_init() {
   // Set the sensor pin as input
-  pinMode(SENSOR_PIN, INPUT);
+  pinMode(SENSOR_PIN, GPIO_MODE_INPUT);
   Serial.println("Sensor initialized");
 
   // Initialize the onboard LED state
